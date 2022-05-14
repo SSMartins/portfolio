@@ -1,0 +1,21 @@
+<div class="card border-success mb-3" style="max-width: 20rem;">
+  <div class="card-header">module {{ moduleInfo.id}}</div>
+  <div class="card-body">
+    <img
+    [src]="moduleInfo.cardImg"
+    class="card-top-img"
+    alt="image module"
+    [title]="moduleInfo.title"
+    >
+    <h4 class="card-title">{{ moduleInfo.title}}</h4>
+    <p class="card-text">{{ moduleInfo.description}}</p>
+
+    <a
+      href="#"
+      class="btn btn-success"
+      (click)="$event.preventDefault(); seeModule()"
+    >
+      {{ moduleInfo.buttonText }}
+    </a>
+  </div>
+</div>

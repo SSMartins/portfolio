@@ -1,0 +1,35 @@
+section{
+  margin: 20px;
+}
+.header-left {
+  width:30%;
+}
+
+.header-rigth{
+  width: 70%;
+  display: flex;
+}
+
+.header-left img{
+  width: 100%;
+  position: relative;
+}
+
+
+.main-right h4{
+  padding: 0;
+  color: #fff;
+  height: 30px;
+  text-align: center;
+}
+
+.main-right{
+  margin:0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  overflow: hidden;
+  position: relative;
+}

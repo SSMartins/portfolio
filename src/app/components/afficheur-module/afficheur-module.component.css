@@ -1,0 +1,11 @@
+.module-list {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.module-list li{
+  display: inline-block;
+  padding: 0;
+  margin: 10px;
+}
